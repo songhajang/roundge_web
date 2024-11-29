@@ -23,6 +23,10 @@
     .notice-item-wh{ width: 27rem; height: 15rem;}
 }
 
+@media (max-width: 768px) {
+    .section-padding{padding:5rem;}
+}
+
 
 .main-banner-title-animation{
     animation: main-banner-title 1s;

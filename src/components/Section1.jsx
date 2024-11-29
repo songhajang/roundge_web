@@ -33,10 +33,10 @@ const Section1 = () =>{
                 <button className="mt-20 app-black-btn">소개 바로가기</button>
             </div>
             <div>
-                <ul className=" mt-60 h-[30rem] w-[80rem] flex justify-center items-center m-auto relative">
+                <ul className=" md:mt-60 mt-20 h-[30rem] lg:w-[80rem] w-[8rem] flex justify-center items-center m-auto relative">
                     {
                         imgUrlList.map((element ,index)=>{
-                            return <li className={['w-[30rem] h-[30rem] rounded-full absolute app-transition', 
+                            return <li className={['lg:w-[30rem] lg:h-[30rem] w-[15rem] h-[15rem] rounded-full absolute app-transition', 
                                 index  === 0 && `bg-slate-400 z-0`,
                                 index  === 1 && 'bg-slate-200 z-10',
                                 index  === 2 && `bg-gray-50 z-20`

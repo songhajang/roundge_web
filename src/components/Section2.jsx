@@ -16,8 +16,8 @@ const Section2 = () =>{
   // style ----------------------
   const titleStyle = { fontSize: "3rem", lineHeight: "5rem" };
   return (
-    <section className="bg-gray-50" id="wrap">
-      <div className="flex justify-around max-w-[1920px] m-auto">
+    <section className="md:bg-gray-50 relative md:overflow-visible overflow-hidden mt-20 flex justify-between flex-wrap" id="wrap">
+      <div className="md:flex md:h-full justify-around max-w-[1920px] w-full h-[75rem] m-auto">
         <div className="flex-1 section-padding">
           <h1 className="font-extrabold" style={titleStyle}>
             네이버클라우드는 <br />
@@ -29,7 +29,7 @@ const Section2 = () =>{
           </h1>
           <button className="mt-16 app-black-btn">서비스 바로가기</button>
         </div>
-        <div className="flex-1 flex section-screen-h overflow-hidden">
+        <div className="flex-1 flex section-screen-h overflow-hidden lg:relative md:z-0 absolute top-0 z-[-9]">
           <ul className="service-banner-from-img-animation">
             {
                 imgUrlList.map((element,index)=>{
