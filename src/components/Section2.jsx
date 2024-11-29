@@ -29,7 +29,7 @@ const Section2 = () =>{
           </h1>
           <button className="mt-16 app-black-btn">서비스 바로가기</button>
         </div>
-        <div className="flex-1 flex section-screen-h overflow-hidden lg:relative md:z-0 absolute top-0 z-[-9]">
+        <div className=" md:relative md:z-0 md:left-0 flex-1 flex section-screen-h overflow-hidden absolute right-0 top-0 z-[-9]">
           <ul className="service-banner-from-img-animation">
             {
                 imgUrlList.map((element,index)=>{

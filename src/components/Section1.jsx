@@ -33,7 +33,7 @@ const Section1 = () =>{
                 <button className="mt-20 app-black-btn">소개 바로가기</button>
             </div>
             <div>
-                <ul className=" md:mt-60 mt-20 h-[30rem] lg:w-[80rem] w-[8rem] flex justify-center items-center m-auto relative">
+                <ul className="lg:mt-60 mt-20 h-[30rem] lg:w-[80rem] w-[8rem] flex justify-center items-center m-auto relative">
                     {
                         imgUrlList.map((element ,index)=>{
                             return <li className={['lg:w-[30rem] lg:h-[30rem] w-[15rem] h-[15rem] rounded-full absolute app-transition', 

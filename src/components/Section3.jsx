@@ -32,7 +32,7 @@ const Section3 = () =>{
         </h1>
         <ul className="mt-20 flex md:justify-between justify-center flex-wrap">
             {noticeList.map((element, index)=>{
-                return <li key={index}>
+                return <li key={index} className="lg:mr-0 mr-5">
                     <div className="notice-item-wh rounded-3xl bg-slate-300"></div>
                     <h3 className="mt-5 text-[1.4rem] font-bold">{element.label}</h3>
                     <h5 className="mt-6 mb-10 md:mb-0 text-[1.2rem] text-gray-400">{element.date}</h5>

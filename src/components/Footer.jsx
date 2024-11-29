@@ -13,7 +13,7 @@ const Footer = () =>{
             <li className="flex-1" style={titleStyle}>
                 라운지
             </li>
-            <li className="lg:flex-nowrap lg:mt-0 flex-1 flex flex-wrap mt-20">
+            <li className="md:flex-nowrap md:mt-0 flex-1 flex flex-wrap mt-20">
               <div className="mr-60">
                 <span className="flex items-center">
                   <IconBtn><FaMapMarkerAlt size={16} color="white" /></IconBtn>
@@ -28,7 +28,7 @@ const Footer = () =>{
                   <p className="ml-5" style={titleStyle}>asdfasdfsd</p>
                 </span>
               </div>
-              <div className="lg:mt-0 flex-1 mt-20">
+              <div className="md:mt-0 flex-1 mt-20">
                 <h3 style={titleStyle}>소개글</h3>
                 <p className="mt-5 text-gray-300 text-[1.4rem]">
                   asdfasdfasdfasdfasdfasdfasdfasdfasdfasds <br />
